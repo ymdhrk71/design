@@ -62,7 +62,7 @@ h1 {
     animation-fill-mode: forwards;
 }
 
-@keyframes bounce {
+@keyframes bounce1 {
     0% {
         transform: translateY(0);
     }
@@ -84,13 +84,177 @@ h1 {
     }
 }
 
-.bounce {
-    animation: bounce 2s linear infinite;
+.bounce1 {
+    animation: bounce1 2s linear infinite;
 }
 
-.circle {
+.circle1 {
     width: 100px;
     height: 100px;
     border-radius: 50px;
     background-color: #ff8800;
+}
+
+@keyframes bounce2 {
+    0% {
+        transform: translateY(30px) scaleX(1) scaleY(1);
+    }
+
+    4% {
+        transform: translateY(30px) scaleX(1.2) scaleY(0.8);
+    }
+
+    5% {
+        transform: translateY(30px) scaleX(1.2) scaleY(0.8);
+    }
+
+    6% {
+        transform: translateY(30px) scaleX(1.2) scaleY(0.8);
+    }
+
+    10% {
+        transform: translateY(30px) scaleX(1) scaleY(1);
+    }
+
+    15% {
+        transform: translateY(-10px);
+    }
+
+    20% {
+        transform: translateY(-20px);
+    }
+
+    30% {
+        transform: translateY(-30px);
+    }
+
+    45% {
+        transform: translateY(-48px);
+    }
+
+    49% {
+        transform: translateY(-50px);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+    51% {
+        transform: translateY(-50px);
+    }
+
+    55% {
+        transform: translateY(-48px);
+    }
+
+    70% {
+        transform: translateY(-30px);
+    }
+
+    80% {
+        transform: translateY(-20px);
+    }
+
+    85% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(30px) scaleX(1) scaleY(1);
+    }
+
+}
+
+.bounce2 {
+    animation: bounce2 1s linear infinite;
+}
+
+.circle2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #00aaff;
+}
+
+@keyframes bounce3 {
+    0% {
+        transform: translate(-40px, -40px);
+    }
+
+    12% {
+        transform: translate(0px, -100px) scale(1, 1);
+    }
+
+    13% {
+        transform: translate(0px, -100px) scale(1.2, 0.8);
+    }
+
+    14% {
+        transform: translate(0px, -100px) scale(1, 1);
+    }
+
+    25% {
+        transform: translate(40px, -40px);
+    }
+
+    37% {
+        transform: translate(100px, 0px) scale(1, 1);
+    }
+
+    38% {
+        transform: translate(100px, 0px) scale(0.8, 1.2);
+    }
+
+    39% {
+        transform: translate(100px, 0px) scale(1, 1);
+    }
+
+    50% {
+        transform: translate(40px, 40px);
+    }
+
+    62% {
+        transform: translate(0px, 100px) scale(1, 1);
+    }
+
+    63% {
+        transform: translate(0px, 100px) scale(1.2, 0.8);
+    }
+
+    64% {
+        transform: translate(0px, 100px) scale(1, 1);
+    }
+
+    75% {
+        transform: translate(-40px, 40px);
+    }
+
+    87% {
+        transform: translate(-100px, 0%) scale(1, 1);
+    }
+
+    88% {
+        transform: translate(-100px, 0%) scale(0.8, 1.2);
+    }
+
+    89% {
+        transform: translate(-100px, 0%) scale(1, 1);
+    }
+
+    100% {
+        transform: translate(-40px, -40px);
+    }
+
+}
+
+.bounce3 {
+    animation: bounce3 3s linear infinite;
+}
+
+.circle3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ae00ff;
 }
